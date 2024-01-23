@@ -19,6 +19,8 @@ import java.util.Map;
 @RestController
 public class Controller {// add some changes
 
+    int o =99999;
+
     @Autowired
     SessionFactory sessionFactory;
 
